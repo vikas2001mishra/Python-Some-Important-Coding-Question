@@ -346,4 +346,144 @@ print(year)'''
 
 
 
+# Qu.12-->
+# *
+# **
+# ***
+# ****
+# *****
+
+
+'''n = int(input("Enter the no:"))
+for i in range (1,n+1):
+    for j in range(1,i+1):
+        print("*",end="")
+    print()'''
+
+#or
+
+'''n = 5
+for i in range(1,n+1):
+    for j in range(1,i+1):
+        print("$",end="")
+    print()'''
+
+
+
+# Qu.13-->
+# * * * * *
+# * * * * *
+# * * * * *
+# * * * * *
+# * * * * *
+
+'''n = 5
+for i in range(5):
+    print("* "*5)
+print()'''
+
+# Or
+
+'''n = int(input("Enter the no:"))
+for i in range(n):
+    print("* "*n)
+print()'''
+
+
+
+# Qu.14-->
+
+# *
+# *
+
+# *
+# *
+
+'''n = int(input("Enter the no:"))
+for i in range(n):
+    for j in range(n):
+        print("*")
+    print()'''
+
+#or
+
+'''n = 2
+for i in range(2):
+    for j in range(2):
+        print("*")
+    print()'''
+
+
+
+
+
+
+
+
+
+
+
+# Write a program to find a substring in a given string
+# Like:- string is Hsjshgramhfudndjjbdbjdk
+# And
+# Substring is ram
+# Then program will check that ram is available in given string or not
+
+
+'''def find_substring(main_string,substring):
+    if substring in main_string:
+        print(f"The substring {substring} is available in the given string")
+    else:
+        print(f"The substring {substring} is not available in the given string")
+
+
+main_string = "Hsjshgramhfudndjjbdbjdk"
+substring ="ram"
+find_substring(main_string,substring)'''
+
+
+
+# OR
+
+
+'''def find_substring():
+    main_string = input("Enter main_string:")
+    substring = input("Enter substring:")
+
+    if substring in main_string:
+        print(f"The substring {substring} is available in the given string")
+    else:
+        print(f"The substring {substring} is not available in the given string")
+
+find_substring()'''
+
+
+
+
+# Write a program to find repeated substring in given string
+
+#def find_repeated_substring():
+
+'''string = "Hsjshgramhfudndjjbdbjdk"
+print("All the duplicate characters in the string are: ")
+for i in range(0, len(string)):
+   count = 1
+   for j in range(i+1, len(string)):
+      if(string[i] == string[j] and string[i] != ' '):
+         count = count + 1
+# setting the string j to 0 to avoid printing the characters already taken
+   string = string[:j] + '0' + string[j+1:]
+# If the count is greater than 1, the character is considered as duplicate
+   if(count > 1 and string[i] != '0'):
+      print(string[i]," - ",count)'''
+
+
+
+
+
+
+
+
+
+
 
