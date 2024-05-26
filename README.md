@@ -338,8 +338,16 @@ print(year)'''
 
 # Qu.25 Get Current Time and Date:
 
+# Time:
+'''from datetime import datetime
+time_now = datetime.now().strftime("%H:%M:%S")
+print("The time is now:",time_now)'''
 
+# Date:
 
+'''from datetime import date
+today_date = date.today()
+print("To day",today_date)'''
 
 
 
@@ -478,6 +486,53 @@ for i in range(0, len(string)):
       print(string[i]," - ",count)'''
 
 
+
+
+
+
+#Qu.31 Checking internet speed:
+
+#[Pending?]
+
+
+# Qu.32 Open a website using python:
+
+'''import webbrowser
+url = "https://google.com/"
+open_web = webbrowser.open(url)
+print(open_web)'''
+
+'''import webbrowser
+url = "https://instagram.com/"
+open_web = webbrowser.open(url)
+print(open_web)'''
+
+'''import webbrowser
+url = "https://youtube.com/"
+open_web = webbrowser.open(url)
+print(open_web)'''
+
+
+# Qu.33 Grammer Errors:
+#pending?
+
+
+# Qu. count frequency of each element
+
+ import collections
+ def CountFrequency(arr):
+     return collections.Counter(arr)
+
+ # Driver function
+ if __name__ == "__main__":
+
+ 	arr = [1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 4, 5, 5]
+ 	freq = CountFrequency(arr)
+
+ 	# iterate dictionary named as freq to print
+ 	# count of each element
+ 	for (key, value) in freq.items():
+		print (key, " -> ", value)
 
 
 
