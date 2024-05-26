@@ -1,6 +1,6 @@
 # Python-Some-Important-Coding-Question
 
-#1.Swape Two Number..
+# 1.Swape Two Number..
 
 '''a = 10
 b = 20
@@ -8,7 +8,7 @@ a,b = b,a
 print("a:",a,"b:",b)'''
 
 
-#2.Prime or Not..?
+# 2.Prime or Not..?
 
 '''n = int(input("Enter the no:"))
 if n>1:
@@ -20,7 +20,7 @@ if n>1:
         print(n,"is prime")'''
 
 
-#3.How to find out the factorial of a number..?
+# 3.How to find out the factorial of a number..?
 '''n = int(input("Enter the number:"))
 fact = 1
 if n<0:
@@ -33,39 +33,39 @@ if n>0:
     print("Factorial of given number is:",fact)'''
 
 
-#4 How to generate random number in python..?
-#Any Number:
+# 4 How to generate random number in python..?
+# Any Number:
 
 '''import random
 num = random.random()
 print(num)'''
 
-#gives a random float number Specified range.
+# gives a random float number Specified range.
 
 '''import random
 num = random.uniform(1,100)
 print(num)'''
 
-#gives as a random integer Specified range.
+# gives as a random integer Specified range.
 
 '''import random
 num = random.randint(1,100)
 print(num)'''
 
 
-#Random even Number....
+# Random even Number....
 
 '''import random
 num = random.randrange(0,200,2)
 print(num)'''
 
-#Random Series.......?
+# Random Series.......?
 
 '''import random
 num = random.sample(range(0,100),8)
 print(num)'''
 
-#5.Fibonacci series:?
+# 5.Fibonacci series:?
 
 '''n =10
 n1,n2 = 0,1
@@ -76,7 +76,7 @@ for i in range (2,n):
     n2 = n3
     print(n3,end="")'''
 
-#IInd method:
+# IInd method:
 
 '''a,b = 0,1
 n = int(input("Enter the number:"))
@@ -92,7 +92,7 @@ else:
         print(c)'''
 
 
-#6. Palindrome..?
+# 6. Palindrome..?
 
 '''value = input("Enter the Value:")
 reversed_value = value[::-1]
@@ -102,7 +102,7 @@ else:
     print("It's not Palindrome")'''
 
 
-#7.Write a program to print the given number is odd or even.
+# 7.Write a program to print the given number is odd or even.
 
 '''n = int(input("Enter the no:"))
 if n%2 == 0:
@@ -111,7 +111,7 @@ else:
     print(n,"is odd no")'''
 
 
-#8.Write a program to find the given number is positive or negative.
+# 8.Write a program to find the given number is positive or negative.
 
 '''n = int(input("Enter the no:"))
 if n<0:
@@ -138,14 +138,14 @@ else:
         print(n2,"is positive number")'''
 
 
-#9.Write a program to find the sum of two numbers.
+# 9.Write a program to find the sum of two numbers.
 
 '''n1 = int(input("Enter 1st no:"))
 n2 = int(input("Enter 2nd no:"))
 
 print("Sum of two number is:",n1+n2)'''
 
-#10.Write a program to find a maximum of two numbers.
+# 10.Write a program to find a maximum of two numbers.
 
 '''n1 = int(input("Enter 1st no:"))
 n2 = int(input("Enter 2nd no:"))
@@ -162,14 +162,14 @@ else:
     print(n2,"is max number")'''
 
 
-#11. Reverse String
+# 11. Reverse String
 
 '''my_str = "Kalidas"
 print(my_str[::-1])'''
 
 
 
-#Que.12 - Write a program to check if the given number is Armstrong or not.
+# Que.12 - Write a program to check if the given number is Armstrong or not.
 
 '''n = int(input("Enter a number: "))
 sum = 0
@@ -251,33 +251,37 @@ if n3<n1 and n3<n2:
     print(n3,"is min.")'''
 
 
-#Question 16: Write a Python program to find the largest element in a list.
+# Question 16: Write a Python program to find the largest element in a list.
 
 '''l = [12,34,56,78,90,123,567,34,67,98,89,704,208,183]
 l.sort()
 print("largest element is:",max(l))'''
 
 
-#Question 17: Write a Python program to find the Smallest element in a list.
+# Question 17: Write a Python program to find the Smallest element in a list.
 
 '''l1 = [11,22,33,44,55,66,77,88,99,31,34,12,65,3,44,6,8,900]
 l1.sort()
 print("Smallest element is:",min(l1))'''
 
-#Question 18: Write a Python program to sort the given list.
+# Question 18: Write a Python program to sort the given list.
 
 '''l2 = [11,22,33,44,55,66,77,88,99,31,34,12,65,3,44,6,8,900]
 l2.sort()
 print(l2)'''
 
-#Question 19: Write a Python program to find the common elements between two lists.
+
+
+# Question 19: Write a Python program to find the common elements between two lists.
 
 '''list1 = [1,3,5,7,8]
 list2 = [9,7,4,5,1]
 
 print(set(list1) & set(list2))'''
 
-#Qu.20 Merge two list:
+
+
+# Qu.20 Merge two list:
 
 '''l1 = [13,56,89,45]
 l2 = [23,44,67,99]
@@ -304,7 +308,7 @@ print("Merge two list:",l1)'''
 for rc in range(n,0,-1):
     print(rc)'''
 
-#Qu.22 Generate custom font:
+# Qu.22 Generate custom font:
 
 '''import pyfiglet
 text = pyfiglet.figlet_format("JAY SHREE RAM",font="puffy")
