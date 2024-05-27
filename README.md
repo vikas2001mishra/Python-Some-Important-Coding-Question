@@ -8,6 +8,8 @@ a,b = b,a
 print("a:",a,"b:",b)'''
 
 
+
+
 # 2.Prime or Not..?
 
 '''n = int(input("Enter the no:"))
@@ -18,6 +20,8 @@ if n>1:
             break
     else:
         print(n,"is prime")'''
+
+
 
 
 # 3.How to find out the factorial of a number..?
@@ -33,6 +37,9 @@ if n>0:
     print("Factorial of given number is:",fact)'''
 
 
+
+
+
 # 4 How to generate random number in python..?
 # Any Number:
 
@@ -40,11 +47,15 @@ if n>0:
 num = random.random()
 print(num)'''
 
+
+
 # gives a random float number Specified range.
 
 '''import random
 num = random.uniform(1,100)
 print(num)'''
+
+
 
 # gives as a random integer Specified range.
 
@@ -53,17 +64,27 @@ num = random.randint(1,100)
 print(num)'''
 
 
+
+
 # Random even Number....
 
 '''import random
 num = random.randrange(0,200,2)
 print(num)'''
 
+
+
 # Random Series.......?
+
+
 
 '''import random
 num = random.sample(range(0,100),8)
 print(num)'''
+
+
+
+
 
 # 5.Fibonacci series:?
 
@@ -75,6 +96,8 @@ for i in range (2,n):
     n1 = n2
     n2 = n3
     print(n3,end="")'''
+
+
 
 # IInd method:
 
@@ -92,6 +115,9 @@ else:
         print(c)'''
 
 
+
+
+
 # 6. Palindrome..?
 
 '''value = input("Enter the Value:")
@@ -100,6 +126,13 @@ if value == reversed_value:
     print("It's Palindrome")
 else:
     print("It's not Palindrome")'''
+
+
+
+
+
+
+
 
 
 # 7.Write a program to print the given number is odd or even.
@@ -111,6 +144,13 @@ else:
     print(n,"is odd no")'''
 
 
+
+
+
+
+
+
+
 # 8.Write a program to find the given number is positive or negative.
 
 '''n = int(input("Enter the no:"))
@@ -118,6 +158,12 @@ if n<0:
     print(n,"is Negative no")
 else:
     print(n,"is positive no")'''
+
+
+
+
+
+
 
 # Or
 
@@ -138,12 +184,25 @@ else:
         print(n2,"is positive number")'''
 
 
+
+
+
+
+
+
 # 9.Write a program to find the sum of two numbers.
 
 '''n1 = int(input("Enter 1st no:"))
 n2 = int(input("Enter 2nd no:"))
 
 print("Sum of two number is:",n1+n2)'''
+
+
+
+
+
+
+
 
 # 10.Write a program to find a maximum of two numbers.
 
@@ -162,10 +221,20 @@ else:
     print(n2,"is max number")'''
 
 
+
+
+
+
+
+
 # 11. Reverse String
 
 '''my_str = "Kalidas"
 print(my_str[::-1])'''
+
+
+
+
 
 
 
@@ -184,6 +253,10 @@ else:
    print(n,"is not an Armstrong number")'''
 
 
+
+
+
+
 # Que.13 -Write a program to find a minimum of two numbers.
 
 '''n1 = float(input("Enter the 1st number:"))
@@ -194,6 +267,12 @@ if n1>n2:
     print(n2,"is minimum")
 else:
     print(n1,"is minimum")'''
+
+
+
+
+
+
 
 
 
@@ -210,6 +289,9 @@ if n2>n1 and n2>n3:
 if n3>n1 and n3>n2:
     print(n3,"is maximum")'''
 
+
+
+
 # Or
 
 '''n1 = float(input("Enter 1st Number:"))
@@ -222,6 +304,13 @@ elif n2>n1 and n2>n3:
     print(n2,"is max")
 else:
     print(n3,"is max.")'''
+
+
+
+
+
+
+
 
 
 # Que.15 Write a program to find a minimum of three numbers.
@@ -237,6 +326,12 @@ elif n2<n1 and n2<n3:
 else:
     print(n3,"is min.")'''
 
+
+
+
+
+
+
 # Or
 
 '''n1 = float(input("Enter 1st Number:"))
@@ -251,11 +346,23 @@ if n3<n1 and n3<n2:
     print(n3,"is min.")'''
 
 
+
+
+
+
+
+
+
 # Question 16: Write a Python program to find the largest element in a list.
 
 '''l = [12,34,56,78,90,123,567,34,67,98,89,704,208,183]
 l.sort()
 print("largest element is:",max(l))'''
+
+
+
+
+
 
 
 # Question 17: Write a Python program to find the Smallest element in a list.
@@ -264,11 +371,25 @@ print("largest element is:",max(l))'''
 l1.sort()
 print("Smallest element is:",min(l1))'''
 
+
+
+
+
+
+
+
 # Question 18: Write a Python program to sort the given list.
 
 '''l2 = [11,22,33,44,55,66,77,88,99,31,34,12,65,3,44,6,8,900]
 l2.sort()
 print(l2)'''
+
+
+
+
+
+
+
 
 
 
@@ -281,6 +402,10 @@ print(set(list1) & set(list2))'''
 
 
 
+
+
+
+
 # Qu.20 Merge two list:
 
 '''l1 = [13,56,89,45]
@@ -289,11 +414,20 @@ merge_list = l1+l2
 print(merge_list)'''
 
 
+
+
+
 # Or
 '''l1 = [13,56,89,45]
 l2 = [23,44,67,99]
 l1.extend(l2)
 print("Merge two list:",l1)'''
+
+
+
+
+
+
 
 
 # Qu.21 Reverse Counting:-
@@ -308,11 +442,21 @@ print("Merge two list:",l1)'''
 for rc in range(n,0,-1):
     print(rc)'''
 
+
+
+
+
+
 # Qu.22 Generate custom font:
 
 '''import pyfiglet
 text = pyfiglet.figlet_format("JAY SHREE RAM",font="puffy")
 print(text)'''
+
+
+
+
+
 
 
 # Qu.- 23 Calender with Python:
@@ -329,11 +473,24 @@ print(month)'''
 year = calendar.calendar(2024)
 print(year)'''
 
+
+
+
+
+
+
+
 # Qu.24 Year is leap year or not?
 
 '''import calendar
 year = calendar.isleap(2024)
 print(year)'''
+
+
+
+
+
+
 
 
 # Qu.25 Get Current Time and Date:
@@ -342,6 +499,9 @@ print(year)'''
 '''from datetime import datetime
 time_now = datetime.now().strftime("%H:%M:%S")
 print("The time is now:",time_now)'''
+
+
+
 
 # Date:
 
@@ -354,7 +514,7 @@ print("To day",today_date)'''
 
 
 
-# Qu.12-->
+# Qu.26-->
 # *
 # **
 # ***
@@ -378,7 +538,9 @@ for i in range(1,n+1):
 
 
 
-# Qu.13-->
+
+
+# Qu.27-->
 # * * * * *
 # * * * * *
 # * * * * *
@@ -399,7 +561,9 @@ print()'''
 
 
 
-# Qu.14-->
+
+
+# Qu.28-->
 
 # *
 # *
@@ -412,6 +576,8 @@ for i in range(n):
     for j in range(n):
         print("*")
     print()'''
+
+
 
 #or
 
@@ -431,7 +597,7 @@ for i in range(2):
 
 
 
-# Write a program to find a substring in a given string
+# Qu.29--> Write a program to find a substring in a given string
 # Like:- string is Hsjshgramhfudndjjbdbjdk
 # And
 # Substring is ram
@@ -448,6 +614,7 @@ for i in range(2):
 main_string = "Hsjshgramhfudndjjbdbjdk"
 substring ="ram"
 find_substring(main_string,substring)'''
+
 
 
 
@@ -468,7 +635,7 @@ find_substring()'''
 
 
 
-# Write a program to find repeated substring in given string
+# Qu.30--> Write a program to find repeated substring in given string
 
 #def find_repeated_substring():
 
@@ -490,9 +657,16 @@ for i in range(0, len(string)):
 
 
 
-#Qu.31 Checking internet speed:
+# Qu.31 Checking internet speed:
 
 #[Pending?]
+
+
+
+
+
+
+
 
 
 # Qu.32 Open a website using python:
@@ -513,11 +687,27 @@ open_web = webbrowser.open(url)
 print(open_web)'''
 
 
+
+
+
+
+
+
+
 # Qu.33 Grammer Errors:
 #pending?
 
 
-# Qu. count frequency of each element
+
+
+
+
+
+
+
+
+
+# Qu.34 count frequency of each element
 
  import collections
  def CountFrequency(arr):
